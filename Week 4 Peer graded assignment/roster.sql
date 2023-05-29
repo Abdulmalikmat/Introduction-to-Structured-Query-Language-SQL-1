@@ -64,6 +64,21 @@ INSERT INTO `member` (`user_id`, `course_id`, `role`) VALUES
 (15, 3, 0);
 
 -- --------------------------------------------------------
+Marty, si106, Instructor
+Dhyia, si106, Learner
+Humayra, si106, Learner
+James, si106, Learner
+Trudy, si106, Learner
+Oz, si110, Instructor
+Cahl, si110, Learner
+Malaikah, si110, Learner
+Sharland, si110, Learner
+Zaynah, si110, Learner
+Carolyn, si206, Instructor
+Daymian, si206, Learner
+Hibatullah, si206, Learner
+Jonah, si206, Learner
+Katelyn, si206, Learner
 
 --
 -- Table structure for table `user`
@@ -79,21 +94,23 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`user_id`, `name`) VALUES
-(2, 'Aaliyah'),
-(3, 'Dillan'),
-(12, 'Eilidh'),
-(13, 'Ellis'),
-(4, 'Dora'),
-(11, 'Tylor'),
-(7, 'Adana'),
-(8, 'Aneshka'),
-(9, 'Malayka'),
-(10, 'Mei'),
-(14, 'Iria'),
-(6, 'Margaret'),
-(5, 'Hema'),
-(15, 'Yva'),
-(1, 'Natividad');
+(1, 'Marty'),
+(2, 'Dhyia'),
+(3, 'Humayra'),
+(4, 'James'),
+(5, 'Trudy'),
+(6, 'Oz'),
+(7, 'Cahl'),
+(8, 'Malaikah'),
+(9, 'Sharland'),
+(10, 'Zaynah'),
+(11, 'Carolyn'),
+(12, 'Daymian'),
+(13, 'Hibatullah'),
+(14, 'Jonah'),
+(15, 'Katelyn');
+
+
 
 /*
 Natividad, si106, Instructor
